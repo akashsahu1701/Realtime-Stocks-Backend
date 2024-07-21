@@ -11,10 +11,7 @@ app.use(express.json());
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb://localhost:27017/realtime-prices", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect("mongodb://localhost:27017/realtime-prices")
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
