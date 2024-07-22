@@ -12,6 +12,8 @@ This is the backend for collecting and storing real-time price data for stocks a
 - Express
 - MongoDB
 - Mongoose
+- Socket.io
+- Typescript
 
 ## Installation
 
