@@ -19,9 +19,9 @@ class StockService {
     this.codes = codes || this.codes;
     this.apiKey = apiKey || this.apiKey;
 
-    // setInterval(() => {
-    //   this.fetchStocks();
-    // }, 5000);
+    setInterval(() => {
+      this.fetchStocks();
+    }, 5000);
   }
 
   async fetchStocks() {
