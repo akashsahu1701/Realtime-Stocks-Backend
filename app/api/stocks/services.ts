@@ -53,7 +53,6 @@ class StockService {
         timestamp: new Date(),
       }));
 
-      console.log(stocks);
       io.emit("stocks", stocks);
 
       await this.saveStocks(stocks);
