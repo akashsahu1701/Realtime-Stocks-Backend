@@ -44,9 +44,9 @@ This is the backend for collecting and storing real-time price data for stocks a
 
 ```
    PORT=8080
-   MONGODB_URI=mongodb+srv://akash:akash@ultrapawz.aj4lo3k.mongodb.net/?retryWrites=true&w=majority&appName=ultrapawz
-   DATABASE_NAME=stocks_db
-   LIVECOIN_API_KEY=ffb23c5a-2d30-45d8-bc24-fe55c8e7c9a5
+   MONGODB_URI=
+   DATABASE_NAME=
+   LIVECOIN_API_KEY=
 ```
 
 ## License
